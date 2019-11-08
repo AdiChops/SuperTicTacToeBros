@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Super Tic Tac Toe Bros.</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="author">by Aaditya Chopra</string>
+    <string name="course">420-B51, Programming V</string>
+    <string name="about_game">Super Tic Tac Toe Bros. is a Super Mario Bros themed tic tac toe game. All images used in this app are licensed for reuse.</string>
+    <string name="the_game">The Game</string>
+</resources>
