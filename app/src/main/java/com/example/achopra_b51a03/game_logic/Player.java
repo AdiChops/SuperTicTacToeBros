@@ -1,4 +1,4 @@
-package com.example.achopra_b51a03;
+package com.example.achopra_b51a03.game_logic;
 
 public class Player {
     private int imgResource;
@@ -6,23 +6,23 @@ public class Player {
     public Player(){
 
     }
-    public Player(int res, char m){
+    protected Player(int res, char m){
         imgResource = res;
         mark = m;
     }
-    public int getImgResource() {
+    protected int getImgResource() {
         return imgResource;
     }
 
-    public void setImgResource(int imgResource) {
+    protected void setImgResource(int imgResource) {
         this.imgResource = imgResource;
     }
 
-    public char getMark() {
+    protected char getMark() {
         return mark;
     }
 
-    public void setMark(char mark) {
+    protected void setMark(char mark) {
         this.mark = mark;
     }
 }

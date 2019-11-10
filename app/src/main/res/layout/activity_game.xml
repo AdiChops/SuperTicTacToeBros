@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
+        android:id="@+id/tblButtons"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,80 +29,95 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:background="#000000">
 
             <ImageButton
                 android:id="@+id/btnTopLeft"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnTopCenter"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnTopRight"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:background="#000000">
 
             <ImageButton
                 android:id="@+id/btnMiddleLeft"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnMiddleCenter"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnMiddleRight"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:background="#000000">
 
             <ImageButton
                 android:id="@+id/btnBottomLeft"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnBottomMiddle"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:layout_marginRight="12dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnBottomRight"
-                android:layout_width="100dp"
-                android:layout_height="126dp"
-                android:background="#00FF0000"
-                app:srcCompat="#FF0000" />
+                android:layout_width="131dp"
+                android:layout_height="131dp"
+                android:background="#FF0000"
+                android:backgroundTint="#FF0000" />
         </TableRow>
 
     </TableLayout>
