@@ -11,22 +11,25 @@
 
     <TextView
         android:id="@+id/txtTheGame"
-        android:layout_width="151dp"
+        android:layout_width="178dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/bangers"
         android:text="@string/the_game"
         android:textColor="@android:color/white"
-        android:textSize="45sp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
         android:id="@+id/tblButtons"
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TableRow
             android:layout_width="match_parent"
@@ -35,24 +38,24 @@
 
             <ImageButton
                 android:id="@+id/btnTopLeft"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnTopCenter"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnTopRight"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000"
                 android:backgroundTintMode="src_in" />
@@ -65,24 +68,24 @@
 
             <ImageButton
                 android:id="@+id/btnMiddleLeft"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnMiddleCenter"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnMiddleRight"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginBottom="12dp"
                 android:background="#FF0000" />
         </TableRow>
@@ -94,22 +97,22 @@
 
             <ImageButton
                 android:id="@+id/btnBottomLeft"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnBottomMiddle"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="12dp"
                 android:background="#FF0000" />
 
             <ImageButton
                 android:id="@+id/btnBottomRight"
-                android:layout_width="131dp"
-                android:layout_height="131dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:background="#FF0000" />
         </TableRow>
 

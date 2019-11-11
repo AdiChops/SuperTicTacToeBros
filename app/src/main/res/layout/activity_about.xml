@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/txtAboutTop"
         android:layout_width="102dp"
-        android:layout_height="54dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/bangers"
         android:text="@string/about"
         android:textColor="@android:color/white"

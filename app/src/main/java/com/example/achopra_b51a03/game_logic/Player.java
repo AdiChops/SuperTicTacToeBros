@@ -1,14 +1,18 @@
 package com.example.achopra_b51a03.game_logic;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable {
     private int imgResource;
     private char mark;
+    private String name;
     public Player(){
 
     }
-    protected Player(int res, char m){
+    protected Player(int res, char m, String n){
         imgResource = res;
         mark = m;
+        name = n;
     }
     protected int getImgResource() {
         return imgResource;
@@ -24,5 +28,8 @@ public class Player {
 
     protected void setMark(char mark) {
         this.mark = mark;
+    }
+    protected String getName(){
+        return name;
     }
 }
